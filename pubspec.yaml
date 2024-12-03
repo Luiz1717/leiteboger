@@ -1,0 +1,21 @@
+name: leiteboger
+description: App de controle de transporte de leite para motoristas.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0+4
+  path: ^1.8.1
+  dio: ^5.0.0
+  fl_chart: ^0.50.6
+  shared_preferences: ^2.0.17
+  provider: ^6.1.2
+  http: ^1.2.2
+
+flutter:
+  uses-material-design: true
